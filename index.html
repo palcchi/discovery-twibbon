@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>
+Twibbon Generator
+</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<div class="card">
+
+
+<h1>
+Twibbon Video
+</h1>
+
+<p>
+Upload foto dan atur posisi
+</p>
+
+
+<label class="upload">
+
+Upload Foto
+
+<input 
+id="upload"
+type="file"
+accept="image/*"
+hidden>
+
+</label>
+
+
+
+<canvas
+id="canvas"
+width="1350"
+height="1080">
+</canvas>
+
+
+
+<button id="generate">
+
+Generate Video
+
+</button>
+
+
+
+<div id="loading" class="hidden">
+
+Rendering...
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
